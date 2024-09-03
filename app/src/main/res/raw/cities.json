@@ -1,0 +1,661 @@
+[
+  {
+    "city": "New York City, NY, USA",
+    "cityBounds":
+      [
+        [
+          -74.00598290832677,
+          40.97984006624654
+        ],
+        [
+          -74.04067078144163,
+          40.97854835809741
+        ],
+        [
+          -74.07502056133309,
+          40.97468582441485
+        ],
+        [
+          -74.10869756841232,
+          40.968290110312545
+        ],
+        [
+          -74.1413739111874,
+          40.95942353517397
+        ],
+        [
+          -74.17273178302213,
+          40.94817246404152
+        ],
+        [
+          -74.20246664392246,
+          40.93464643767093
+        ],
+        [
+          -74.23029025193136,
+          40.91897707116115
+        ],
+        [
+          -74.2559335110978,
+          40.90131673362301
+        ],
+        [
+          -74.27914910584052,
+          40.88183702370507
+        ],
+        [
+          -74.2997138947771,
+          40.86072705792093
+        ],
+        [
+          -74.31743104064952,
+          40.83819159059074
+        ],
+        [
+          -74.33213185676271,
+          40.81444898580358
+        ],
+        [
+          -74.34367735427212,
+          40.78972906311232
+        ],
+        [
+          -74.351959478626,
+          40.764270839682304
+        ],
+        [
+          -74.35690202740652,
+          40.738320192331216
+        ],
+        [
+          -74.35846124564678,
+          40.71212746332353
+        ],
+        [
+          -74.35662609836642,
+          40.68594503393187
+        ],
+        [
+          -74.35141822351325,
+          40.66002488966269
+        ],
+        [
+          -74.34289157168209,
+          40.63461620068458
+        ],
+        [
+          -74.33113174187393,
+          40.6099629404143
+        ],
+        [
+          -74.31625502514527,
+          40.5863015644304
+        ],
+        [
+          -74.29840717026791,
+          40.563858770921044
+        ],
+        [
+          -74.27776188748122,
+          40.54284936275266
+        ],
+        [
+          -74.25451910808103,
+          40.523474229993056
+        ],
+        [
+          -74.22890301897176,
+          40.50591847035661
+        ],
+        [
+          -74.20115989243548,
+          40.49034966357951
+        ],
+        [
+          -74.17155573226972,
+          40.47691631419795
+        ],
+        [
+          -74.1403737581463,
+          40.465746475605904
+        ],
+        [
+          -74.10791175057413,
+          40.45694656662545
+        ],
+        [
+          -74.07447927924257,
+          40.45060039014325
+        ],
+        [
+          -74.04039483780124,
+          40.44676836165952
+        ],
+        [
+          -74.00598290832677,
+          40.445486953869775
+        ],
+        [
+          -73.97157097885233,
+          40.44676836165952
+        ],
+        [
+          -73.93748653741099,
+          40.45060039014325
+        ],
+        [
+          -73.90405406607942,
+          40.45694656662545
+        ],
+        [
+          -73.87159205850726,
+          40.465746475605904
+        ],
+        [
+          -73.84041008438383,
+          40.47691631419795
+        ],
+        [
+          -73.81080592421807,
+          40.49034966357951
+        ],
+        [
+          -73.7830627976818,
+          40.50591847035661
+        ],
+        [
+          -73.75744670857253,
+          40.523474229993056
+        ],
+        [
+          -73.73420392917235,
+          40.54284936275266
+        ],
+        [
+          -73.71355864638566,
+          40.563858770921044
+        ],
+        [
+          -73.69571079150829,
+          40.5863015644304
+        ],
+        [
+          -73.68083407477963,
+          40.6099629404143
+        ],
+        [
+          -73.66907424497148,
+          40.63461620068458
+        ],
+        [
+          -73.66054759314031,
+          40.66002488966269
+        ],
+        [
+          -73.65533971828715,
+          40.68594503393187
+        ],
+        [
+          -73.65350457100678,
+          40.71212746332353
+        ],
+        [
+          -73.65506378924705,
+          40.738320192331216
+        ],
+        [
+          -73.66000633802757,
+          40.764270839682304
+        ],
+        [
+          -73.66828846238144,
+          40.78972906311232
+        ],
+        [
+          -73.67983395989084,
+          40.81444898580358
+        ],
+        [
+          -73.69453477600405,
+          40.83819159059074
+        ],
+        [
+          -73.71225192187646,
+          40.86072705792093
+        ],
+        [
+          -73.73281671081304,
+          40.88183702370507
+        ],
+        [
+          -73.75603230555576,
+          40.90131673362301
+        ],
+        [
+          -73.7816755647222,
+          40.91897707116115
+        ],
+        [
+          -73.8094991727311,
+          40.93464643767093
+        ],
+        [
+          -73.83923403363143,
+          40.94817246404152
+        ],
+        [
+          -73.87059190546616,
+          40.95942353517397
+        ],
+        [
+          -73.90326824824123,
+          40.968290110312545
+        ],
+        [
+          -73.93694525532047,
+          40.97468582441485
+        ],
+        [
+          -73.97129503521194,
+          40.97854835809741
+        ],
+        [
+          -74.00598290832677,
+          40.97984006624654
+        ]
+      ]
+
+  },
+  {
+    "city": "Los Angeles, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Chicago, IL, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Houston, TX, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Phoenix, AZ, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Philadelphia, PA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "San Antonio, TX, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "San Diego, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Dallas, TX, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "San Jose, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Atlanta, GA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Miami, FL, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Las Vegas, NV, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Salt Lake City, UT, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "San Diego, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Austin, TX, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Jacksonville, FL, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "San Francisco, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Columbus, OH, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Indianapolis, IN, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Fort Worth, TX, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Charlotte, NC, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Seattle, WA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Denver, CO, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "El Paso, TX, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Detroit, MI, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Washington, DC, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Boston, MA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Memphis, TN, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Nashville, TN, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Baltimore, MD, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Oklahoma City, OK, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Las Vegas, NV, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Louisville, KY, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Milwaukee, WI, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Albuquerque, NM, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Tucson, AZ, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Fresno, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Sacramento, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Kansas City, MO, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Mesa, AZ, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Virginia Beach, VA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Colorado Springs, CO, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Omaha, NE, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Raleigh, NC, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Cleveland, OH, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Tulsa, OK, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Oakland, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Minneapolis, MN, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Wichita, KS, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Arlington, TX, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Bakersfield, CA, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Tampa, FL, USA",
+    "cityBounds": []
+  },
+  {
+    "city": "Toronto, ON, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Vancouver, BC, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Montreal, QC, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Calgary, AB, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Edmonton, AB, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Ottawa, ON, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Winnipeg, MB, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Quebec City, QC, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Hamilton, ON, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Kitchener, ON, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "London, ON, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Victoria, ON, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Halifax, NS, Canada",
+    "cityBounds": []
+  },
+  {
+    "city": "Mexico City, CDMX, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Cancún, Quintana Roo, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Playa del Carmen, Quintana Roo, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Tulum, Quintana Roo, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Puerto Vallarta, Jalisco, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "San Miguel de Allende, Guanajuato, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Mérida, Yucatán, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Los Cabos, Baja California Sur, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Guadalajara, Jalisco, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Querétaro, Querétaro, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "La Paz, Baja California Sur, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Chihuahua, Chihuahua, Mexico",
+    "cityBounds": []
+  },
+  {
+    "city": "Paris, Île-de-France, France",
+    "cityBounds": []
+  },
+  {
+    "city": "London, England, United Kingdom",
+    "cityBounds": []
+  },
+  {
+    "city": "Rome, Lazio, Italy",
+    "cityBounds": []
+  },
+  {
+    "city": "Tokyo, Tokyo Metropolis, Japan",
+    "cityBounds": []
+  },
+  {
+    "city": "Barcelona, Catalonia, Spain",
+    "cityBounds": []
+  },
+  {
+    "city": "Sydney, New South Wales, Australia",
+    "cityBounds": []
+  },
+  {
+    "city": "Amsterdam, North Holland, Netherlands",
+    "cityBounds": []
+  },
+  {
+    "city": "Hong Kong, Hong Kong SAR",
+    "cityBounds": []
+  },
+  {
+    "city": "Dubai, Dubai, UAE",
+    "cityBounds": []
+  },
+  {
+    "city": "Buenos Aires, Buenos Aires, Argentina",
+    "cityBounds": []
+  },
+  {
+    "city": "Istanbul, Istanbul, Turkey",
+    "cityBounds": []
+  },
+  {
+    "city": "Lisbon, Lisbon, Portugal",
+    "cityBounds": []
+  },
+  {
+    "city": "Prague, Prague, Czech Republic",
+    "cityBounds": []
+  },
+  {
+    "city": "Vienna, Vienna, Austria",
+    "cityBounds": []
+  },
+  {
+    "city": "Marrakech, Marrakech-Safi, Morocco",
+    "cityBounds": []
+  },
+  {
+    "city": "Berlin, Berlin, Germany",
+    "cityBounds": []
+  },
+  {
+    "city": "San José, San José, Costa Rica",
+    "cityBounds": []
+  },
+  {
+    "city": "Edinburgh, Scotland, United Kingdom",
+    "cityBounds": []
+  },
+  {
+    "city": "Shanghai, Shanghai, China",
+    "cityBounds": []
+  },
+  {
+    "city": "Seoul, Seoul, South Korea",
+    "cityBounds": []
+  },
+  {
+    "city": "Singapore, Singapore",
+    "cityBounds": []
+  }
+]

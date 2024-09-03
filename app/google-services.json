@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "315172893263",
+    "project_id": "citydoorbell-android",
+    "storage_bucket": "citydoorbell-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315172893263:android:bb0cb950315cea7f97b03a",
+        "android_client_info": {
+          "package_name": "app.citydoorbell"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7FuRVmR3we0WM7dA6XOX6MDrv_jP43KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
