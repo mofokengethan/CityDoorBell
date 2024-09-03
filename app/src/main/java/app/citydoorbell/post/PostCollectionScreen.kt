@@ -88,10 +88,6 @@ fun PostCollectionScreen(
                         .padding(top = 20.dp)
                         .padding(horizontal = 8.dp, vertical = 2.dp)
                 )
-                MenuSelectionList(false, mainViewModel = mainViewModel) { cat ->
-                    // TODO: filter posts
-                    categoryStyle = cat.second
-                 }
                 MenuSelectionList(true, mainViewModel = mainViewModel) { pStyle ->
                     // TODO: filter posts
                     postStyle = pStyle.first
@@ -157,12 +153,16 @@ fun PostList(isComments: Boolean, navigation: NavController, appColors: AppColor
             modifier = Modifier.fillMaxSize()
         ) {
             items(AppDatabase.posts.size) { postIndex ->
-                PostCard(AppDatabase.posts[postIndex], true, appColors = appColors) {
-                    val id = "viewComments"
-                    val postId = AppDatabase.posts[postIndex].id.split("/")[1]
-                    val post = AppDatabase.getPostModelWithId(postId)
-                    mainViewModel.updatePostForComments(post)
-                    navigation.navigate("postingScreen1/${id}/${destination}/${postId}")
+            if (isComments) {
+                    PostCard(AppDatabase.posts[postIndex], false, appColors = appColors, null)
+            } else {
+                    PostCard(AppDatabase.posts[postIndex], true, appColors = appColors) {
+                        val id = "viewComments"
+                        val postId = AppDatabase.posts[postIndex].id.split("/")[1]
+                        val post = AppDatabase.getPostModelWithId(postId)
+                        mainViewModel.updatePostForComments(post)
+                        navigation.navigate("postingScreen1/${id}/${destination}/${postId}")
+                    }
                 }
             }
         }

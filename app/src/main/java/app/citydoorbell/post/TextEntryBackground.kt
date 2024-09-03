@@ -97,16 +97,18 @@ fun TextEntryBackground(
                 BackNavigationHeader(screenTitle = navDestination, navController = navController, navDestination = navDestination, mainViewModel) {
                     messageText = ""
                 }
-                Text(
-                    text = cat,
-                    fontSize = 19.sp,
-                    fontFamily = FontFamily.Serif,
-                    color = mainViewModel.appColors.collectAsState().value.textColor,
-                    fontWeight = FontWeight.W300,
-                    letterSpacing = 0.8.sp,
-                    modifier = Modifier
-                        .padding(14.dp)
-                )
+                if (screenTitle != "viewComments") {
+                    Text(
+                        text = cat,
+                        fontSize = 19.sp,
+                        fontFamily = FontFamily.Serif,
+                        color = mainViewModel.appColors.collectAsState().value.textColor,
+                        fontWeight = FontWeight.W300,
+                        letterSpacing = 0.8.sp,
+                        modifier = Modifier
+                            .padding(14.dp)
+                    )
+                }
                 Spacer(modifier = Modifier.weight(1f)) // Takes up remaining space to push the content up
                 content() // Screen Content
             }
@@ -161,8 +163,7 @@ fun TextEntryBackground(
                         .border(
                             1.18.dp,
                             mainViewModel.appColors.collectAsState().value.secondaryTextColor
-                        )
-                    ,
+                        ),
                     colors = OutlinedTextFieldDefaults.colors(
                         focusedContainerColor = Color.White,
                         unfocusedContainerColor = Color.White,

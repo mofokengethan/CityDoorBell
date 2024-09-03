@@ -15,10 +15,7 @@ fun CommentsContent(
     title: String,
     destination: String
 ) {
-    MenuSelectionList(false, mainViewModel = viewModel) {
-        // TODO: filter comments
-        println()
-    }
+
     PostCard(post, true, appColors = viewModel.appColors.collectAsState().value, null)
     PostList(true, navigation, appColors = viewModel.appColors.collectAsState().value, category = title, destination = destination, viewModel)
 }

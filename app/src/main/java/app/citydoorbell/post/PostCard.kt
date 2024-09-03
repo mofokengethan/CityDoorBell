@@ -64,20 +64,6 @@ fun PostCard(post: AppDatabase.PostModel, forComments: Boolean, appColors: AppCo
             }
     ) {
         Column {
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(8.dp)
-            ) {
-                Text("", color = appColors.textColor, modifier = Modifier.padding(end = 4.dp).weight(1f))
-                postStyleVote.value?.let { type: PostStyleType ->
-                    Text(type.getEmoji(), color = Color.Black, modifier = Modifier.padding(end = 8.dp))
-                }
-                if (doubleTap) {
-                    Image(imageVector = Icons.Default.Favorite, colorFilter = ColorFilter.tint(appColors.highlightColor2), contentDescription = "Favorite", modifier = Modifier.size(20.dp))
-                }
-            }
             Text(
                 text = post.post,
                 fontSize = 14.sp,
@@ -104,15 +90,6 @@ fun PostCard(post: AppDatabase.PostModel, forComments: Boolean, appColors: AppCo
                         Image(imageVector = Icons.Outlined.ArrowDropDown, colorFilter = ColorFilter.tint(
                             appColors.iconColor), contentDescription = "Favorite", modifier = Modifier.size(20.dp))
                         Text(
-                            text = "12k",
-                            fontSize = 11.sp,
-                            color = appColors.highlightColor,
-                            fontWeight = FontWeight(400),
-                            letterSpacing = 0.8.sp,
-                            modifier = Modifier
-                                .padding(end = 8.dp)
-                        )
-                        Text(
                             text = "Comments",
                             fontSize = 11.sp,
                             color = appColors.secondaryTextColor,
@@ -130,59 +107,6 @@ fun PostCard(post: AppDatabase.PostModel, forComments: Boolean, appColors: AppCo
                     letterSpacing = 0.8.sp,
                     modifier = Modifier
                         .padding(horizontal = 8.dp)
-                )
-            }
-            DropdownMenu(
-                expanded = expanded,
-                onDismissRequest = { expanded = false },
-                modifier = Modifier
-                    .background(appColors.backgroundColor)
-            ) {
-                PostStyleType.entries.subList(1, PostStyleType.entries.size - 1).forEach { styleType: PostStyleType ->
-                    DropdownMenuItem(
-                        onClick = {
-                            println(styleType.toString())
-                            postStyleVote.value = styleType
-                            expanded = false
-                        },
-                        colors = MenuItemColors(
-                            textColor = appColors.textColor,
-                            leadingIconColor = Color.Black,
-                            trailingIconColor = Color.Transparent,
-                            disabledTextColor = Color.Gray,
-                            disabledLeadingIconColor = Color.Gray,
-                            disabledTrailingIconColor = Color.Gray
-                        ),
-                        text = {
-                            Column {
-                                Text(styleType.toString(), fontSize = 12.sp)
-                                HorizontalDivider(color = appColors.borderColor, modifier = Modifier
-                                    .padding(top = 6.dp)
-                                    .alpha(0.5f))
-                            }
-                        },
-                        interactionSource = interactionSource
-                    )
-                }
-                DropdownMenuItem(
-                    onClick = {
-                        postStyleVote.value = null
-                        expanded = false
-                    },
-                    colors = MenuItemColors(
-                        textColor = appColors.textColor,
-                        leadingIconColor = Color.Black,
-                        trailingIconColor = Color.Transparent,
-                        disabledTextColor = Color.Gray,
-                        disabledLeadingIconColor = Color.Gray,
-                        disabledTrailingIconColor = Color.Gray
-                    ),
-                    text = {
-                        Column {
-                            Text("Remove", fontSize = 12.sp)
-                        }
-                    },
-                    interactionSource = interactionSource
                 )
             }
         }
